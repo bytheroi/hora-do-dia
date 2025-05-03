@@ -21,6 +21,30 @@ corfonte tarde = 3E7FB5
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 680px){
+    header > h1{
+        font-size: 2em;
+    }
+    body section{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 100px 100px;
+        width: 90%;
+        height: 300px;
+    }
+    section div#msg{
+        font-size: 1.1em;
+    }
+    div#foto img#img{
+        width: 150px;
+
+    }
+
+
+}
+    
+
+
 body{
     background-color: rgb(87, 87, 255);
 }
